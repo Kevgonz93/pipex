@@ -62,9 +62,9 @@ Descripción : Este proyecto va sobre el manejo de pipes
 
 Tu programa deberá ejecutarse de la siguiente forma:
 
-    ```bash
-    ./pipex archivo1 comando1 comando2 archivo2
-    ```
+```bash
+    $> ./pipex archivo1 comando1 comando2 archivo2
+```
 
 Deberá utilizar 4 argumentos:
 
@@ -73,35 +73,35 @@ Deberá utilizar 4 argumentos:
 
 La ejecución del programa pipex deberá hacer lo mismo que el siguiente comando:
 
-    ```bash
+```bash
     $> < archivo1 comando1 | comando2 > archivo2
-    ```
+```
 
 #### 1.  Ejemplos
 
 Esto:
     
-    ```bash
+```bash
     $> ./pipex infile "ls -l" "wc -l" outfile
-    ```
+```
 
 deberá hacer lo mismo que 
 
-    ```bash
+```bash
     <infile ls -l | wc -l >outfile”$> 
-    ```
+```
 
 Y esto:
 
-    ```bash
+```bash
     $> ./pipex infile "grep a1" "wc -w" outfile
-    ```
+```
     
 deberá hacer lo mismo que 
 
-    ```bash
+```bash
     <infile grep a1 | wc -w >outfile”
-    ```
+```
 
 #### 2.  Requisitos
 
