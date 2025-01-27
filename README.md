@@ -1,6 +1,6 @@
 # PIPEX
 
-Resumen: Este proyecto te permitirá descubrir, mediante el uso en tu programa, elfuncionamiento de un mecanismo de UNIX que ya conoces.
+Resumen: Este proyecto te permitirá descubrir, mediante el uso en tu programa, el funcionamiento de un mecanismo de UNIX que ya conoces.
 
 Versión: 3
 
@@ -25,11 +25,11 @@ Cristina:“Ve a algún sitio a bailar salsa :)”
 ### Capítulo II : Instrucciones generales
 
 -   Tu proyecto deberá estar escrito en C.
--   Tu proyecto debe estar escrito siguiendo la Norma. Si tienes archivos o funcionesadicionales, estas están incluidas en la verificación de la Norma y tendrás un 0 si hay algún error de norma en cualquiera de ellos.
--   Tus funciones no deben terminar de forma inesperada (segfault, bus error, doublefree, etc) excepto en el caso de comportamientos indefinidos. Si esto sucede, tuproyecto será considerado no funcional y recibirás un0durante la evaluación.
--   Toda la memoria asignada en el heap deberá liberarse adecuadamente cuando seanecesario. No se permitirán leaks de memoria.
--   Si el enunciado lo requiere, deberás entregar unMakefileque compilará tus archivosfuente al output requerido con las flags -Wall, -Werror y -Wextra, utilizar cc ypor supuesto tu Makefileno debe hacer relink.
--   TuMakefile debe contener al menos las normas$(NAME),all,clean,fcleanyre.
+-   Tu proyecto debe estar escrito siguiendo la Norma. Si tienes archivos o funciones adicionales, estas están incluidas en la verificación de la Norma y tendrás un 0 si hay algún error de norma en cualquiera de ellos.
+-   Tus funciones no deben terminar de forma inesperada (segfault, bus error, double free, etc) excepto en el caso de comportamientos indefinidos. Si esto sucede, tu proyecto será considerado no funcional y recibirás un 0 durante la evaluación.
+-   Toda la memoria asignada en el heap deberá liberarse adecuadamente cuando sea necesario. No se permitirán leaks de memoria.
+-   Si el enunciado lo requiere, deberás entregar un Makefileque compilará tus archivos fuente al output requerido con las flags -Wall, -Werror y -Wextra, utilizar cc y por supuesto tu Makefile no debe hacer relink.
+-   Tu Makefile debe contener al menos las normas $(NAME), all, clean, fclean y re.
 -   Para entregar los bonus de tu proyecto deberás incluir una regla bonus en tu Makefile, en la que añadirás todos los headers, librerías o funciones que estén prohibidas en la parte principal del proyecto. Los bonus deben estar en archivos distintos _bonus.{c/h}. La parte obligatoria y los bonus se evalúan por separado.
 -   Si tu proyecto permite el uso de la libft, deberás copiar su fuente y sus Makefile asociados en un directorio libft con su correspondiente Makefile. El Makefile de tu proyecto debe compilar primero la librería utilizando su Makefile, y después compilar el proyecto.
 -   Te recomendamos crear programas de prueba para tu proyecto, aunque este trabajo no será entregado ni evaluado. Te dará la oportunidad de verificar que tu programa funciona correctamente durante tu evaluación y la de otros compañeros. Y sí, tienes permitido utilizar estas pruebas durante tu evaluación o la de otros compañeros.
@@ -85,7 +85,7 @@ Esto:
     $> ./pipex infile "ls -l" "wc -l" outfile
 ```
 
-deberá hacer lo mismo que 
+deberá hacer lo mismo que:
 
 ```bash
     <infile ls -l | wc -l >outfile”$> 
@@ -97,7 +97,7 @@ Y esto:
     $> ./pipex infile "grep a1" "wc -w" outfile
 ```
     
-deberá hacer lo mismo que 
+deberá hacer lo mismo que:
 
 ```bash
     <infile grep a1 | wc -w >outfile”
@@ -140,8 +140,7 @@ Deberá comportarse así:
 comando << LIMITADOR | comando1 >> archivo
 ```
 
-Los bonus solo serán evaluados si tu parte obligatoria está PERFECTA.Con PERFECTA queremos naturalmente decir que debe estar completa,sin fallos incluso en el más absurdo de los casos o de mal uso,etc. Significa que si tu parte obligatoria no tiene TODOS los puntosdurante la evaluación, tus bonus serán completamente IGNORADOS.
-
+Los bonus solo serán evaluados si tu parte obligatoria está PERFECTA. Con PERFECTA queremos naturalmente decir que debe estar completa,sin fallos incluso en el más absurdo de los casos o de mal uso,etc. Significa que si tu parte obligatoria no tiene TODOS los puntos durante la evaluación, tus bonus serán completamente IGNORADOS.
 
 ### Capítulo V : Entrega y evaluación entrecompañeros
 
