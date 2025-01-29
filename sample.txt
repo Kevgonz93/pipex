@@ -1,0 +1,20 @@
+COMUNIDAD	19 jugadores
+DIEGO	        PAUL
+GIANCARLO	    PAUL
+PAUL	        PAUL
+SEBAS	        PAUL
+BRUNO	        PAUL
+EDSON	        PAUL
+MARLON	        PAUL
+CHRISTIAN	    PIERO
+ALEX (PICHÍN)	PIERO
+SAÚL	        PIERO
+PIERO	        PIERO
+JIMMY	        PIERO
+ALEXIS (PICHÓN)	PIERO
+RICHARK	        DANILO
+DARWIN	        DANILO
+DANILO	        DANILO
+GUTI	        DANILO
+GON	            DANILO
+ALVARO	        DANILO

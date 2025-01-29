@@ -52,7 +52,7 @@ Argumentos :
 archivo1 comando1 comando2 archivo2
 
 Funciones  autorizadas : 
--   open, close, read, write,malloc, free, perror,strerror, access, dup, dup2, execve, exit, fork, pipe, unlink, wait, waitpid
+-   open, close, read, write, malloc, free, perror, strerror, access, dup, dup2, execve, exit, fork, pipe, unlink, wait, waitpid
 -   ft_printf and any equivalent YOU coded
 
 Se  permite  usarlibft : 
