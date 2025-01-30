@@ -13,6 +13,7 @@
 # define LIBFT_H
 
 # include "../pipex.h"
+# include "../bonus/pipex_bonus.h"
 # include <stdlib.h>
 # include <stdio.h>
 
