@@ -1,1 +1,2 @@
-7
+executing command /usr/bin/wc
+      20      46     438

@@ -1,4 +1,4 @@
-#include    "pipex.h"
+#include "pipex.h"
 
 static char	*find_path(char **env)
 {
