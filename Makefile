@@ -6,7 +6,8 @@ CFLAGS = -Wall -Wextra -Werror
 
 SRCS = $(wildcard *.c)
 SRCS_LIBFT = $(wildcard aux/*.c)
-SRCS_ALL = $(SRCS) $(SRCS_LIBFT)
+SRCS_SRC = $(wildcard src/*.c)
+SRCS_ALL = $(SRCS) $(SRCS_LIBFT) $(SRCS_SRC)
 
 OBJS = $(SRCS_ALL:.c=.o)
 

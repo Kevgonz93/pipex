@@ -18,6 +18,7 @@ void	exec_cmd(t_data *pipex, int cmd_index)
 	int	next_pipe;
 	int	i;
 
+	printf("executing command %s\n", pipex->cmd[0]);
 	prev_pipe = (cmd_index - 1) * 2;
 	next_pipe = cmd_index * 2;
 	if (cmd_index == 0)
@@ -32,7 +33,6 @@ void	exec_cmd(t_data *pipex, int cmd_index)
 	i = 0;
 	while (i < pipex->total_pipes * 2)
 		close(pipex->pipes[i++]);
-	printf("executing command %s\n", pipex->cmd[0]);
 	execve(pipex->cmd[0], pipex->cmd, NULL);
 	perror("execve error");
 	exit(1);

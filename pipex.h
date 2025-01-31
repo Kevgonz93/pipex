@@ -1,4 +1,4 @@
-#include "data.h"
+#include "src/data.h"
 #include "aux/libft.h"
 #include <stdio.h>
 #include <fcntl.h>

@@ -1,4 +1,4 @@
-#include "pipex.h"
+#include "../pipex.h"
 
 char	*ft_strjoin_free(char *s1, const char *s2)
 {
