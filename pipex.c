@@ -56,6 +56,7 @@ void	finish_program(t_data *pipex)
 		close(pipex->fd_in);
 	if (pipex->fd_out)
 		close(pipex->fd_out);
+	free(pipex);
 }
 
 int	main(int argc, char **argv, char **env)
